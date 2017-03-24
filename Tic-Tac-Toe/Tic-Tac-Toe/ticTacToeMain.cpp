@@ -6,7 +6,6 @@
 #include <algorithm>
 
 using namespace std;
-
 const char X = 'X';
 const char O = 'O';
 const char EMPTY = ' ';
@@ -66,7 +65,7 @@ int main()
 	} while (playAgain == 'y');
 	if (playAgain == 'n')
 	{
-		cout << "Goodbye, crawen human." << endl;
+		cout << "Goodbye, craven human." << endl;
 		return 0;
 	}
 }
